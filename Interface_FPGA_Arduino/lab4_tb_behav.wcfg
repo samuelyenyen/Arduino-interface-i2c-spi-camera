@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lab4_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lab4_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="387.501 ns"></ZoomEndTime>
+      <Cursor1Time time="25.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="176"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/lab4_tb/CLK100MHZ" type="logic">
+      <obj_property name="ElementShortName">CLK100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/ck_sck" type="logic">
+      <obj_property name="ElementShortName">ck_sck</obj_property>
+      <obj_property name="ObjectShortName">ck_sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/ck_mosi" type="logic">
+      <obj_property name="ElementShortName">ck_mosi</obj_property>
+      <obj_property name="ObjectShortName">ck_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/ck_miso" type="logic">
+      <obj_property name="ElementShortName">ck_miso</obj_property>
+      <obj_property name="ObjectShortName">ck_miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/ck_ss" type="logic">
+      <obj_property name="ElementShortName">ck_ss</obj_property>
+      <obj_property name="ObjectShortName">ck_ss</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/mytb/sckr" type="array">
+      <obj_property name="ElementShortName">sckr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sckr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/mytb/ssr" type="array">
+      <obj_property name="ElementShortName">ssr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ssr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/mytb/mosir" type="array">
+      <obj_property name="ElementShortName">mosir[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mosir[1:0]</obj_property>
+   </wvobject>
+</wave_config>
